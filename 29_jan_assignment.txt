@@ -1,0 +1,65 @@
+QUESTION 1:-Who developed python programming language
+ANSWER : Guido van Rossum
+
+QUESTION 2:-Which type of programming does python support
+ANSWER : Python is a multi-paradigm programming language. 
+         Object-oriented programming and structured programming are fully supported, 
+         and many of their features support functional programming and aspect-oriented
+         programming (including metaprogramming and metaobjects)
+         
+QUESTION 3:-Is python case sensitive when dealing with identifiers.
+ANSWER: Yes, Python is a case-sensitive language, i.e., it treats uppercase and lowercase characters differently.
+        This applies to identifiers too.
+        You must avoid using the same name with different cases while naming identifiers. 
+        It is always good to use names that are more easily understood. 
+        If you want to store counts of 2 values, you would rather name your variables count1 and count2 
+        instead of naming them C and c. 
+        Although the latter would give you separate variables, it can cause a lack of understanding in 
+        the longer run.
+        
+QUESTION 5:-is python code compiled or interpreted
+ANSWER : python compiled or interpreted both type of language
+		 The compilation part is hidden from the programmer thus
+         The compilation part is done first when we execute our code and this will generate byte code
+         and internally this byte code gets converted by the python virtual
+         machine(p.v.m) according to the underlying platform(machine+operating system).
+         
+QUESTION 6:-name a few blocks of code used to define in python language 
+ANSWER: Indentation is used to define a block of code in python. Braces {} are used to define 
+        a block of code in most programming languages, like C, C++, and Java. 
+        But this indentation makes python unique among all programming languages.
+        This indentation highlights the block of code. In Python, 
+        indentation is done with whitespace. All statements with the same right-hand distance
+        belong to the same code block. If a block needs to be more nested, it is indented to the right.
+        
+        EXAMPLE:
+
+        name = 'SAURABH'
+
+        if name == 'SAURABH':
+            print('Correct Name!!')
+        else:
+            print('InCorrect Name:(')
+        print('HI')         
+
+QUESTION 7:-states a character used to give single-line comment in python
+ANSWRE: #
+
+QUESTION 8:-mention functions which can help us to find the version of python that we are currently working on.
+ANSWER:  sys.version
+
+QUESTION 9:-python supports the creationof anonymous function at runtime using a construct called
+ANSWER : lambda
+
+QUESTION 10:-what does pip stand for python
+ANSWER : fulll form of pip is preferred installation program its is package management system to install and manage software packages written in Python and found in Python Package Index (PyPI). Basically it is used to install additional libraries and packages that are not part of the standard Python library.
+
+QUESTION 11:-mention a few build in function in python
+ANSWER :1. print( ) function.
+        2. type( ) function.
+        3. input( ) function.
+        4. abs( ) function.
+        5. pow( ) function  
+        
+QUESTION 12:-what is the maximum possible lenght of an identifier in python
+ANSWER :79 characters        
